@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>manutenção de usuarios</title>
+</head>
+<body>
+
+    <h1 style="color: rgb(82, 14, 14);">Manutenção de usuarios do sistema interno →</h1>
+    <form action="">
+
+        <label for="login"> Login</label>
+        <input type="login" id="login" />
+        <br><br>
+
+        <label for="senha">Senha</label>
+        <input type="password" id="senha"/>
+        <br><br>
+
+       
+         <label for="cidade"> Status</label>
+         <select name="cidade">
+         <option value>"Inativo"</option>
+         <option value>"Ativo"</option>
+         </select>
+
+         <br><br>
+         <div style="display: flex; align-items: center;">
+            <legend>Tipo</legend>
+            <input type="radio" name="tipo" id="con" />
+            <label for="con"> Técnico</label>
+            <input type="radio" name="tipo" id="adm" />
+            <label for="adm"> administrador</label>
+            <input type="radio" name="tipo" id="aluno" />
+            <label for="aluno"> Aluno</label>
+         </div>
+       
+        <br><br>
+
+        <label for="datanasc"> Data de criação</label>
+        <input type="date" id="datanasc" />
+        <br><br>
+
+        <div style="display: flex; align-items: center;">
+            <legend>Perfil</legend>
+            <input type="radio" name="perfil" id="con" />
+            <label for="con"> Convidado</label>
+            <input type="radio" name="perfil" id="adm" />
+            <label for="adm"> Adiministrador</label>
+        </div>
+           
+       
+
+        <br><br>
+        <div style="display: flex; align-items: center;">
+        <label for="info" > Observações </label><br>
+        <textarea id="info"></textarea>
+        </div>
+        <br><br>
+
+        <div style="display: flex; align-items: center;">
+            <legend> Módulos</legend>
+            <input type="checkbox" id="compras" />
+            <label for="compras"> Compras</label>
+            <input type="checkbox" id="biblioteca" />
+            <label for="biblioteca"> Biblioteca</label>
+            <input type="checkbox" id="Academico" />
+            <label for="Academico"> Acadêmico</label>
+            <input type="checkbox" id="rh" />
+            <label for="rh"> Recursos Humanos</label>
+            <input type="checkbox" id="doc" />
+            <label for="doc"> Documentação</label>
+           
+        </div>
+        <br><br>
+
+        <input type="reset" value="Enviar"/>
+        <input type="submit" value="Excluir"/>
+    
+</body>
+</html>
